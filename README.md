@@ -6,7 +6,8 @@ This project explores how neuropsychiatric disorders (NPF) are portrayed in Swed
 ## Contents
 - `url_scraper.py`: Script for collecting news articles from Swedish media sources.
 - `data_exploration.ipynb`: Initial data overview and cleaning.
-- `npf_analysis.ipynb`: Topic modeling with BERTopic and sentiment analysis.
+- `npf_analysis.ipynb`: Topic modeling with BERTopic and sentiment analysis. 
+
 - `Result_example/`: Example outputs and visualizations.
 - `README.md`: Project overview.
 
@@ -33,6 +34,8 @@ This project was developed and tested in Google Colab. To run the analysis:
 3. If needed, install missing packages using:
    ```python
    !pip install bertopic pandas matplotlib scikit-learn nltk numpy seaborn
+
+> The notebook has been cleaned of widget metadata to ensure compatibility with Google Colab and GitHub preview. All results are preserved.
 
 ## Author
 Lisa Påhlsson
